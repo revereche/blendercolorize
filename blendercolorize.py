@@ -40,7 +40,7 @@ raw = """\
 -b. \
 """ + blur + """\
 % -watershed.. [-1] -rm. -rm[0] -rm[0] \
--done \
+-normalize. 0,255 -done \
 """
 
 
